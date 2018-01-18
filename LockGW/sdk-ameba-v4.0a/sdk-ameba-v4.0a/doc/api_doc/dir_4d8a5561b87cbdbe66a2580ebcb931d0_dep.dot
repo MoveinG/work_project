@@ -1,0 +1,15 @@
+digraph "realtek_8195a_gen_project" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_bb17c7c1f6b5d4e42018e46e245402cf {
+    graph [ bgcolor="#ddddee", pencolor="black", label="project" fontname="Helvetica", fontsize="10", URL="dir_bb17c7c1f6b5d4e42018e46e245402cf.html"]
+  subgraph clusterdir_4d8a5561b87cbdbe66a2580ebcb931d0 {
+    graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_4d8a5561b87cbdbe66a2580ebcb931d0.html"];
+    dir_4d8a5561b87cbdbe66a2580ebcb931d0 [shape=plaintext label="realtek_8195a_gen_project"];
+    dir_d55a6639c0ef2e769c54f3d73fdcd6ae [shape=box label="rtl8195a" color="red" fillcolor="white" style="filled" URL="dir_d55a6639c0ef2e769c54f3d73fdcd6ae.html"];
+  }
+  }
+  dir_da6bad2e2c5a50fa6b6edae596f8e89f [shape=box label="component" fillcolor="white" style="filled" color="red" URL="dir_da6bad2e2c5a50fa6b6edae596f8e89f.html"];
+  dir_d55a6639c0ef2e769c54f3d73fdcd6ae->dir_da6bad2e2c5a50fa6b6edae596f8e89f [headlabel="1", labeldistance=1.5 headhref="dir_000003_000014.html"];
+}
