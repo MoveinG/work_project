@@ -12,6 +12,7 @@ extern void myTimerCallback(TimerHandle_t);
 
 extern void console_init(void);
 
+//test git log
 
 /**
   * @brief  Main program.
